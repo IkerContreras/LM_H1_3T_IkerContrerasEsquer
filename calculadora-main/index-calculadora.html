@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="index.css" rel="stylesheet" />
+    <script src="Display.js" type="text/javascript"></script>
+    <script src="Calculadora.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="calculadora">
+            <div class="display">
+                <div id="valor-anterior"></div>
+                <div id="valor-actual"></div>
+            </div>
+            <button class="btn btn-dark" onclick="display.borrarTodo()">C</button>
+            <button class="btn btn-dark" onclick="display.borrar()">&larr;</button>
+            <button type="button" class="btn btn-dark operador" value="porcentaje">%</button>
+            <button class="numero"></button>
+            <button type="button" class="btn btn-dark numero">7</button>
+            <button type="button" class="btn btn-dark numero">8</button>
+            <button type="button" class="btn btn-dark numero">9</button>
+            <button type="button" class="btn btn-dark operador float-right" value="dividir">÷</button>
+            <button type="button" class="btn btn-dark numero">4</button>
+            <button type="button" class="btn btn-dark numero">5</button>
+            <button type="button" class="btn btn-dark numero">6</button>
+            <button type="button" class="btn btn-dark operador float-right" value="multiplicar">×</button>
+            <button type="button" class="btn btn-dark numero">1</button>
+            <button type="button" class="btn btn-dark numero">2</button>
+            <button type="button" class="btn btn-dark numero">3</button>
+            <button type="button" class="btn btn-dark operador float-right" value="sumar">+</button>
+            <button type="button" class="btn btn-dark numero">0</button>
+            <button type="button" class="btn btn-dark operador float-right" value="igual">=</button>
+            <button type="button" class="btn btn-dark numero">.</button>
+            <button type="button" class="btn btn-dark operador float-right" value="restar">-</button>
+            <button type="button" class="btn btn-dark operador" value="raiz">√</button>
+            <button type="button" class="btn btn-dark operador" value="cuadrado">x²</button>
+        </div>
+    </div>
+</body>
+</html>
+
+            
